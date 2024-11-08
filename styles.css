@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #270451; */
+   background-image: url(gradiente.png);
+}
+
+h1, h2 {
+    text-align: center;
+    
+}
+
+.menu {
+    /* background-color: rgb(234, 211, 235); */
+  
+    width: 100%;              /* O menu preenche a largura da tela */
+    padding: 1rem;            /* Adiciona espaçamento interno */
+    margin-left: -0.50rem !important;    /* Remove 0.5rem da margem esquerda */
+    margin-top: -0.50rem !important;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(143, 28, 28, 0.1);
+    border-radius: 2%;
+    opacity: 0.90;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+   
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+
+th {
+    background: #ded9d9;
+    
+}
+
+.actions {
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(231, 13, 13);
+}
+
+button[type="submit"] {
+    background: blue;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.search-product {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#add-product-form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 55%;
+    display: flex;
+   
+}
+#product-name{
+    margin-top: 2%;
+}
+
+#product-quantity{
+    margin-top: 2%;
+}
+.search-product input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.search-product button {
+    background: green;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+/* Responsividade em telas menores */
+
+@media (max-width:60px){
+    .search-product input{
+        width: 100%;
+    }
+    .search-product button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
